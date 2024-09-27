@@ -86,7 +86,7 @@ async function connectToWA() {
             let up = `*Server connected successfully* ✅\n\n*PREFIX:-* ${prefix}\n\n*To Check Bot Alive Type:-* ${prefix}alive\n\n*To Get Bot Menu type:-* ${prefix}menu\n\n*My Github:-* https://github.com/mrdilla\n\n*Thanks For Using My Wa Bot*`;
             //=============image for above msg====================== 
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
-                image: { url: `https://i.imgur.com/JzEDdTj.jpeg` },
+                image: { url: `https://cdn-icons-png.flaticon.com/512/4712/4712035.png` },
                 caption: up
             });
         }
