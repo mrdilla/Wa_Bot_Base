@@ -1,12 +1,12 @@
 {
-  "name": "chuti_yakshani-md",
+  "name": "bot",
   "version": "2.0.0",
-  "description": "Chuti_Yakshani-MD is a Multi Device Whatsapp Bot Created By Dilla Editz.",
-  "main": "dilla.js",
+  "description": "Bot is a Multi Device Whatsapp Bot Created By Dilla Editz.",
+  "main": "main.js",
   "scripts": {
-    "start": "pm2 link xh5z2thzqtmpovy i58up2rx742yduq && pm2 start dilla.js --deep-monitoring --attach --name Dilla",
-    "stop": "pm2 stop Dilla",
-    "restart": "pm2 restart Dilla"
+    "start": "pm2 start main.js --deep-monitoring --attach --name Bot",
+    "stop": "pm2 stop Bot",
+    "restart": "pm2 restart Bot"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrdilla/Base"
+    "url": "git+https://github.com/mrdilla/Wa_Bot_Base"
   },
   "bugs": {
-    "url": "https://github.com/mrdilla/Base/issues"
+    "url": "https://github.com/mrdilla/Wa_Bot_Base/issues"
   },
   "homepage": "https://mr-dilla.netlify.app/"
 }
